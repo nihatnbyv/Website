@@ -1,0 +1,869 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body header .readourservice {
+  background-color: #013299;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+  font-size: 15px;
+}
+
+body header .beatnik {
+  height: 80px;
+  padding: 0.5rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 767px) {
+  body header .beatnik {
+    padding: 0.5rem 1rem;
+  }
+}
+
+body header .beatnik .navbar-toggler {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  body header .beatnik .navbar-toggler {
+    display: block;
+  }
+}
+
+body header .beatnik .searchimg {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  body header .beatnik .searchimg {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  body header .beatnik .searchimg small {
+    display: none;
+  }
+}
+
+body header .beatnik .beatniklogo {
+  height: 40px;
+  cursor: pointer;
+}
+
+body header .beatnik .accountcart {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+body header .beatnik .accountcart h5 {
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+
+body header .beatnik .accountcart img {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  body header .beatnik .accountcart h5 {
+    display: none;
+  }
+  body header .beatnik .accountcart .userbasket {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body header .beatnik .accountcart .userbasket img {
+    display: block;
+  }
+}
+
+body header hr {
+  margin: 0;
+}
+
+body header .connect {
+  font-size: 17px;
+}
+
+body header .connect .collapse .navbar-nav {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .girl {
+  background-image: url(../image/girl.jpg);
+  background-size: cover;
+  height: 700px;
+}
+
+@media (max-width: 767px) {
+  body main .girl {
+    display: none;
+  }
+}
+
+body main .hsandbottom {
+  padding: 190px 50px 50px 50px;
+  height: 100%;
+}
+
+body main .hsandbottom .hs h6 {
+  color: white;
+  font-size: 15px;
+}
+
+body main .hsandbottom .hs h1 {
+  color: white;
+  font-size: 85px;
+  width: 50%;
+}
+
+body main .hsandbottom .hs h4 {
+  color: white;
+  margin-bottom: 40px;
+}
+
+body main .hsandbottom .hs .button {
+  border: 15px solid white;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+body main .mobilegirl {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  body main .mobilegirl {
+    display: block;
+  }
+}
+
+body main .mobilegirl .mobilegirlimg {
+  width: 100%;
+}
+
+body main .mobilegirl .mobilegirlimg img {
+  width: 100%;
+}
+
+body main .mobilehsandbutton {
+  margin-top: 15px;
+  display: none;
+}
+
+@media (max-width: 767px) {
+  body main .mobilehsandbutton {
+    display: block;
+  }
+}
+
+body main .mobilehsandbutton h6 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body main .mobilehsandbutton h1 {
+  text-align: center;
+  font-size: 43px;
+}
+
+body main .mobilehsandbutton h4 {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+body main .mobilehsandbutton .mobilespanbutton {
+  text-align: center;
+  margin-top: 12px;
+}
+
+body main .mobilehsandbutton .mobilespanbutton .button {
+  border: 1px solid black;
+  padding: 3px 12px;
+}
+
+body main .birdsunglasses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 250px;
+}
+
+body main .birdsunglasses p {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #637381;
+  margin: 0;
+}
+
+body main .birdsunglasses p a {
+  text-decoration: underline;
+  color: #637381;
+}
+
+body main .menwomen {
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .menwomen .leftdiv {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 767px) {
+  body main .menwomen .leftdiv {
+    width: 100%;
+  }
+}
+
+body main .menwomen .leftdiv img {
+  width: 90%;
+}
+
+@media (max-width: 767px) {
+  body main .menwomen .leftdiv img {
+    width: 100%;
+  }
+}
+
+body main .menwomen .leftdiv .womenssunglasses {
+  position: absolute;
+  width: 45%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+@media (max-width: 767px) {
+  body main .menwomen .leftdiv .womenssunglasses {
+    width: 100%;
+    height: 340px;
+  }
+}
+
+body main .menwomen .leftdiv .womenssunglasses .leftarticles {
+  border: 1px solid white;
+  background: white;
+  width: 50%;
+  height: 116px;
+  font-family: monospace;
+}
+
+@media (max-width: 767px) {
+  body main .menwomen .leftdiv .womenssunglasses .leftarticles {
+    width: 65%;
+    height: 130px;
+  }
+}
+
+body main .menwomen .leftdiv .womenssunglasses .leftarticles a {
+  text-decoration: none;
+}
+
+body main .menwomen .leftdiv .womenssunglasses .leftarticles a h4 {
+  color: grey;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+body main .menwomen .leftdiv .womenssunglasses .leftarticles a {
+  text-decoration: none;
+  color: black;
+}
+
+body main .menwomen .leftdiv .womenssunglasses .leftarticles a h2 {
+  font-size: 27px;
+}
+
+body main .menwomen .leftdiv .womenssunglasses .leftarticles a {
+  text-decoration: none;
+}
+
+body main .menwomen .leftdiv .womenssunglasses .leftarticles a h5 {
+  font-size: 15px;
+  color: grey;
+}
+
+body main .menwomen .rightdiv {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 767px) {
+  body main .menwomen .rightdiv {
+    display: none;
+  }
+}
+
+body main .menwomen .rightdiv img {
+  width: 90%;
+}
+
+body main .menwomen .rightdiv .menssunglasses {
+  position: absolute;
+  width: 45%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body main .menwomen .rightdiv .menssunglasses .rightarticles {
+  border: 1px solid white;
+  background: white;
+  width: 50%;
+  height: 116px;
+  font-family: monospace;
+}
+
+body main .menwomen .rightdiv .menssunglasses .rightarticles a {
+  text-decoration: none;
+}
+
+body main .menwomen .rightdiv .menssunglasses .rightarticles a h4 {
+  color: grey;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+body main .menwomen .rightdiv .menssunglasses .rightarticles a {
+  text-decoration: none;
+  color: black;
+}
+
+body main .menwomen .rightdiv .menssunglasses .rightarticles a h2 {
+  font-size: 27px;
+}
+
+body main .menwomen .rightdiv .menssunglasses .rightarticles a {
+  text-decoration: none;
+}
+
+body main .menwomen .rightdiv .menssunglasses .rightarticles a h5 {
+  font-size: 15px;
+  color: grey;
+}
+
+body main .exploreourbestsellers {
+  text-align: center;
+  margin-top: 80px;
+}
+
+body main .exploreourbestsellers h6 {
+  color: grey;
+}
+
+body main .exploreourbestsellerscard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+body main .exploreourbestsellerscard .card-deck {
+  width: 90%;
+}
+
+@media (max-width: 767px) {
+  body main .exploreourbestsellerscard .card-deck {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+body main .exploreourbestsellerscard .card-deck h6 {
+  color: grey;
+  text-align: center;
+}
+
+body main .westarting {
+  background-color: #f6f6f6;
+}
+
+body main .westarting .westartingdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+  body main .westarting .westartingdiv {
+    display: block;
+  }
+}
+
+body main .westarting .westartingdiv img {
+  width: 600px;
+  height: 400px;
+  margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+  body main .westarting .westartingdiv img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+body main .westarting .westartingdiv .h5h1h3 {
+  width: 50%;
+  padding: 40px;
+}
+
+@media (max-width: 767px) {
+  body main .westarting .westartingdiv .h5h1h3 {
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+  }
+}
+
+body main .westarting .westartingdiv .h5h1h3 h5 {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+body main .westarting .westartingdiv .h5h1h3 h1 {
+  font-size: 44px;
+}
+
+@media (max-width: 767px) {
+  body main .westarting .westartingdiv .h5h1h3 h1 {
+    font-size: 30px;
+  }
+}
+
+body main .westarting .westartingdiv .h5h1h3 h3 {
+  font-size: 23px;
+  font-weight: 300;
+}
+
+@media (max-width: 767px) {
+  body main .westarting .westartingdiv .h5h1h3 h3 {
+    font-size: 15px;
+  }
+}
+
+body main .acetatecollection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  body main .acetatecollection {
+    display: block;
+  }
+}
+
+body main .acetatecollection .h6h1h3 {
+  width: 50%;
+  text-align: center;
+  padding: 90px 90px;
+}
+
+@media (max-width: 767px) {
+  body main .acetatecollection .h6h1h3 {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+body main .acetatecollection .h6h1h3 h6 {
+  font-weight: 400;
+}
+
+body main .acetatecollection .h6h1h3 h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+body main .acetatecollection .h6h1h3 .btn {
+  color: black;
+  border-color: black;
+  background-color: white;
+  margin-top: 20px;
+}
+
+body main .acetatecollection .acetatephotos {
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  body main .acetatecollection .acetatephotos {
+    width: 100%;
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+body main .acetatecollection .acetatephotos img {
+  width: 332px;
+  height: 412px;
+}
+
+@media (max-width: 767px) {
+  body main .acetatecollection .acetatephotos img {
+    width: 50%;
+    height: 280px;
+  }
+}
+
+body main .vid-text {
+  margin-top: 30px;
+  position: relative;
+}
+
+body main .vid-text video {
+  height: auto;
+  width: 100%;
+  background-position: absolute;
+}
+
+body main .vid-text .carousel-caption {
+  bottom: 35%;
+  text-shadow: 1px 1px black;
+}
+
+@media (max-width: 767px) {
+  body main .vid-text .carousel-caption {
+    bottom: 0;
+  }
+}
+
+body main .vid-text .carousel-caption h1 {
+  font-weight: bold;
+  font-size: 6rem;
+}
+
+@media (max-width: 767px) {
+  body main .vid-text .carousel-caption h1 {
+    font-size: 30px;
+  }
+}
+
+body main .vid-text .carousel-caption h3 {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 767px) {
+  body main .vid-text .carousel-caption h3 {
+    font-size: 18px;
+  }
+}
+
+body main .vid-text .carousel-caption button {
+  margin-top: 20px;
+  border-radius: 0;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  width: 200px;
+  height: 50px;
+}
+
+@media (max-width: 767px) {
+  body main .vid-text .carousel-caption button {
+    margin-top: 13px;
+  }
+}
+
+body main .vid-text .carousel-caption button:hover {
+  background-color: black;
+  border: 2px solid black;
+  cursor: pointer;
+  color: white;
+}
+
+body main .caramel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  body main .caramel {
+    display: block;
+  }
+}
+
+body main .caramel ul {
+  padding: 70px 50px;
+  color: gray;
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  body main .caramel ul {
+    width: 100%;
+  }
+}
+
+body main .caramel ul li img {
+  width: 100%;
+  height: auto;
+}
+
+body main .goodthinks {
+  background-color: #f6f6f6;
+}
+
+body main .goodthinks .goodthinksdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+  body main .goodthinks .goodthinksdiv {
+    display: block;
+  }
+}
+
+body main .goodthinks .goodthinksdiv img {
+  width: 600px;
+  height: 400px;
+  margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+  body main .goodthinks .goodthinksdiv img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+body main .goodthinks .goodthinksdiv .h5h1h3 {
+  width: 50%;
+  padding: 90px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  body main .goodthinks .goodthinksdiv .h5h1h3 {
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+body main .goodthinks .goodthinksdiv .h5h1h3 h5 {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+body main .goodthinks .goodthinksdiv .h5h1h3 h1 {
+  font-size: 44px;
+}
+
+@media (max-width: 767px) {
+  body main .goodthinks .goodthinksdiv .h5h1h3 h1 {
+    font-size: 30px;
+  }
+}
+
+body main .goodthinks .goodthinksdiv .h5h1h3 h3 {
+  font-size: 23px;
+  font-weight: 300;
+}
+
+@media (max-width: 767px) {
+  body main .goodthinks .goodthinksdiv .h5h1h3 h3 {
+    font-size: 15px;
+  }
+}
+
+body main .introducing .introducingcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+body main .introducing .introducingcard .card-deck {
+  width: 98%;
+}
+
+@media (max-width: 767px) {
+  body main .introducing .introducingcard .card-deck {
+    display: block;
+    width: 100%;
+  }
+}
+
+body main .introducing .introducingcard .card-deck b {
+  font-size: 24px;
+}
+
+body main .introducing .introducingcard .card-deck h6 {
+  font-size: 14px;
+  color: grey;
+}
+
+body main .introducing .introducingcard .card-deck small {
+  color: grey;
+}
+
+body main .introducing .introducingcard .card-deck .card {
+  border: none;
+}
+
+body main .map .mapdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+  body main .map .mapdiv {
+    display: block;
+  }
+}
+
+body main .map .mapdiv .imgdiv {
+  width: 30%;
+}
+
+@media (max-width: 767px) {
+  body main .map .mapdiv .imgdiv {
+    width: 100%;
+  }
+}
+
+body main .map .mapdiv .imgdiv img {
+  width: 100%;
+  height: 100%;
+}
+
+body main .map .mapdiv .h2h4 {
+  width: 30%;
+  padding: 30px;
+  background-color: #153171;
+}
+
+@media (max-width: 767px) {
+  body main .map .mapdiv .h2h4 {
+    width: 100%;
+    padding: 30px;
+    height: 300px;
+  }
+}
+
+body main .map .mapdiv .h2h4 h2 {
+  font-size: 20px;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  body main .map .mapdiv .h2h4 h2 {
+    font-size: 20px;
+  }
+}
+
+body main .map .mapdiv .h2h4 h4 {
+  font-size: 15px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  body main .map .mapdiv .h2h4 h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  body main .map .mapdiv .h2h4 .btn-primary {
+    color: black;
+    background-color: white;
+    border-color: #153171;
+  }
+}
+
+body main .map .mapdiv .mapplace {
+  width: 40%;
+}
+
+@media (max-width: 767px) {
+  body main .map .mapdiv .mapplace {
+    width: 100%;
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,671 @@
+@import "variables";
+@import "mixins";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    header {
+        //Başlığdakı göy yazı.//
+        .readourservice {
+            background-color: #013299;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            font-size: 15px;
+        }
+
+        //Beatnik yazılan logo hissə.//
+        .beatnik {
+            height: 80px;
+            padding: 0.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            @include mobile {
+                padding: 0.5rem 1rem;
+            }
+
+            .navbar-toggler {
+                display: none;
+                @include mobile {
+                    display: block;
+                }
+            }
+
+            .searchimg {
+                font-size: 18px;
+                color: black;
+                text-decoration: none;
+
+                @include mobile {
+                    font-size: 15px;
+                }
+
+                small {
+                    @include mobile {
+                        display: none;
+                    }
+                }
+            }
+
+            .beatniklogo {
+                height: 40px;
+                cursor: pointer;
+            }
+
+            .accountcart {
+                cursor: pointer;
+                text-decoration: none;
+                h5 {
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: black;
+                }
+                img {
+                    display: none;
+                }
+                @include mobile {
+                    h5 {
+                        display: none;
+                    }
+                    .userbasket {
+                        display: flex;
+                        img {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+
+        hr {
+            margin: 0;
+        }
+
+        //Navbar hissə.//
+        .connect {
+            font-size: 17px;
+            .collapse {
+                .navbar-nav {
+                    width: 100%;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    main {
+        //Həm mobil həm desktop aid olub.//
+        .girl {
+            background-image: url(../image/girl.jpg);
+            background-size: cover;
+            height: 700px;
+            @include mobile {
+                display: none;
+            }
+        }
+        .hsandbottom {
+            padding: 190px 50px 50px 50px;
+            height: 100%;
+            .hs {
+                h6 {
+                    color: white;
+                    font-size: 15px;
+                }
+                h1 {
+                    color: white;
+                    font-size: 85px;
+                    width: 50%;
+                }
+                h4 {
+                    color: white;
+                    margin-bottom: 40px;
+                }
+
+                .button {
+                    border: 15px solid white;
+                    background-color: white;
+                    font-size: 18px;
+                    font-weight: 300;
+                }
+            }
+        }
+
+        // Mobil versiyada olan hissə //
+        .mobilegirl {
+            display: none;
+            @include mobile {
+                display: block;
+            }
+
+            .mobilegirlimg {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .mobilehsandbutton {
+            margin-top: 15px;
+            display: none;
+            @include mobile {
+                display: block;
+            }
+            h6 {
+                text-align: center;
+                font-size: 15px;
+                font-weight: 400;
+            }
+            h1 {
+                text-align: center;
+                font-size: 43px;
+            }
+            h4 {
+                text-align: center;
+                font-size: 17px;
+                font-weight: 400;
+            }
+
+            .mobilespanbutton {
+                text-align: center;
+                margin-top: 12px;
+                .button {
+                    border: 1px solid black;
+                    padding: 3px 12px;
+                }
+            }
+        }
+
+        //Həm mobil həm desktop aid olub.//
+        .birdsunglasses {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 250px;
+            p {
+                font-family: sans-serif;
+                font-size: 20px;
+                text-align: center;
+                color: #637381;
+                margin: 0;
+                a {
+                    text-decoration: underline;
+                    color: #637381;
+                }
+            }
+        }
+
+        //Həm mobil həm desktop aid olub.//
+        .menwomen {
+            height: 400px;
+            display: flex;
+            .leftdiv {
+                @include mobile {
+                    width: 100%;
+                }
+
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                img {
+                    width: 90%;
+
+                    @include mobile {
+                        width: 100%;
+                    }
+                }
+                .womenssunglasses {
+                    position: absolute;
+                    width: 45%;
+                    height: 400px;
+                    display: flex;
+                    align-items: flex-end;
+
+                    @include mobile {
+                        width: 100%;
+                        height: 340px;
+                    }
+
+                    .leftarticles {
+                        border: 1px solid white;
+                        background: white;
+                        width: 50%;
+                        height: 116px;
+                        font-family: monospace;
+
+                        @include mobile {
+                            width: 65%;
+                            height: 130px;
+                        }
+
+                        a {
+                            text-decoration: none;
+                            h4 {
+                                color: grey;
+                                font-size: 15px;
+                                margin-top: 10px;
+                            }
+                        }
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            h2 {
+                                font-size: 27px;
+                            }
+                        }
+
+                        a {
+                            text-decoration: none;
+                            h5 {
+                                font-size: 15px;
+                                color: grey;
+                            }
+                        }
+                    }
+                }
+            }
+            .rightdiv {
+                @include mobile {
+                    display: none;
+                }
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                img {
+                    width: 90%;
+                }
+
+                .menssunglasses {
+                    position: absolute;
+                    width: 45%;
+                    height: 400px;
+                    display: flex;
+                    align-items: flex-end;
+
+                    .rightarticles {
+                        border: 1px solid white;
+                        background: white;
+                        width: 50%;
+                        height: 116px;
+                        font-family: monospace;
+
+                        a {
+                            text-decoration: none;
+                            h4 {
+                                color: grey;
+                                font-size: 15px;
+                                margin-top: 10px;
+                            }
+                        }
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            h2 {
+                                font-size: 27px;
+                            }
+                        }
+
+                        a {
+                            text-decoration: none;
+                            h5 {
+                                font-size: 15px;
+                                color: grey;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .exploreourbestsellers {
+            text-align: center;
+            margin-top: 80px;
+            h6 {
+                color: grey;
+            }
+        }
+
+        .exploreourbestsellerscard {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            .card-deck {
+                width: 90%;
+                @include mobile {
+                    display: flex;
+                }
+                h6 {
+                    color: grey;
+                    text-align: center;
+                }
+            }
+        }
+
+        .westarting {
+            background-color: #f6f6f6;
+            .westartingdiv {
+                display: flex;
+                padding: 30px;
+                margin-top: 30px;
+                @include mobile {
+                    display: block;
+                }
+                img {
+                    width: 600px;
+                    height: 400px;
+                    margin-right: 20px;
+                    @include mobile {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                .h5h1h3 {
+                    width: 50%;
+                    padding: 40px;
+                    @include mobile {
+                        width: 100%;
+                        padding: 0;
+                        margin-top: 20px;
+                    }
+                    h5 {
+                        font-size: 17px;
+                        font-weight: 400;
+                    }
+                    h1 {
+                        font-size: 44px;
+                        @include mobile {
+                            font-size: 30px;
+                        }
+                    }
+                    h3 {
+                        font-size: 23px;
+                        font-weight: 300;
+                        @include mobile {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .acetatecollection {
+            display: flex;
+            margin-top: 20px;
+            @include mobile {
+                display: block;
+            }
+
+            .h6h1h3 {
+                width: 50%;
+                text-align: center;
+                padding: 90px 90px;
+                @include mobile {
+                    width: 100%;
+                    padding: 0;
+                }
+
+                h6 {
+                    font-weight: 400;
+                }
+
+                h3 {
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+
+                .btn {
+                    color: black;
+                    border-color: black;
+                    background-color: white;
+                    margin-top: 20px;
+                }
+            }
+
+            .acetatephotos {
+                width: 50%;
+                @include mobile {
+                    width: 100%;
+                    margin-top: 20px;
+                    display: flex;
+                }
+                img {
+                    width: 332px;
+                    height: 412px;
+                    @include mobile {
+                        width: 50%;
+                        height: 280px;
+                    }
+                }
+            }
+        }
+        
+        .vid-text {
+            margin-top: 30px;
+            position: relative;
+      
+            video {
+              height: auto;
+              width: 100%;
+              background-position: absolute;
+            }
+      
+            .carousel-caption {
+              bottom: 35%;
+              text-shadow: 1px 1px black;
+              @include mobile {
+                bottom: 0;
+            }
+      
+              h1 {
+                font-weight: bold;
+                font-size: 6rem;
+                @include mobile {
+                    font-size: 30px;
+                }
+              }
+      
+              h3 {
+                font-size: 1.5rem;
+                @include mobile {
+                    font-size: 18px;
+                }
+              }
+      
+              button {
+                margin-top: 20px;
+                border-radius: 0;
+                color: black;
+                background-color: white;
+                border: 1px solid black;
+                width: 200px;
+                height: 50px;
+                @include mobile {
+                    margin-top: 13px;
+                }
+      
+                &:hover {
+                  background-color: black;
+                  border: 2px solid black;
+                  cursor: pointer;
+                  color: white;
+                }
+              }
+      
+            }
+        }
+
+        .caramel {
+            display: flex;
+            @include mobile {
+                display: block;
+            }
+      
+            ul {
+              padding: 70px 50px;
+              color: gray;
+              width: 50%;
+              @include mobile {
+                  width: 100%;
+              }
+
+              li {
+                img {
+                  width: 100%;
+                  height: auto;
+                }
+              }
+            }
+        }
+
+        .goodthinks {
+            background-color: #f6f6f6;
+            .goodthinksdiv {
+                display: flex;
+                padding: 30px;
+                margin-top: 30px;
+                @include mobile {
+                    display: block;
+                }
+                img {
+                    width: 600px;
+                    height: 400px;
+                    margin-right: 20px;
+                    @include mobile {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                .h5h1h3 {
+                    width: 50%;
+                    padding: 90px;
+                    text-align: center;
+                    @include mobile {
+                        width: 100%;
+                        padding: 0;
+                        margin-top: 20px;
+                        margin-bottom: 10px;
+                    }
+                    h5 {
+                        font-size: 17px;
+                        font-weight: 400;
+                    }
+                    h1 {
+                        font-size: 44px;
+                        @include mobile {
+                            font-size: 30px;
+                        }
+                    }
+                    h3 {
+                        font-size: 23px;
+                        font-weight: 300;
+                        @include mobile {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .introducing {
+            .introducingcard {
+                display: flex;
+                justify-content: center;
+                margin-top: 30px;
+                .card-deck {
+                    width: 98%;
+                    @include mobile {
+                        display: block;
+                        width: 100%;
+                    }
+                    b {
+                        font-size: 24px;
+                    }
+                    h6 {
+                        font-size: 14px;
+                        color: grey;
+                    }
+                    small {
+                        color: grey;
+                    }
+                    .card {
+                        border: none;
+                    }
+                }
+            }
+        }
+
+        .map {
+            .mapdiv {
+                display: flex;
+                margin-top: 30px;
+                @include mobile {
+                    display: block;
+                }
+
+                .imgdiv {
+                    width: 30%;
+                    @include mobile {
+                        width: 100%;
+                    }
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        @include mobile {
+                        }
+                    }
+                }
+
+                .h2h4 {
+                    width: 30%;
+                    padding: 30px;
+                    background-color: #153171;
+                    @include mobile {
+                        width: 100%;
+                        padding: 30px;
+                        height: 300px;
+                    }
+                    h2 {
+                        font-size: 20px;
+                        color: white;
+                        @include mobile {
+                            font-size: 20px;
+                        }
+                    }
+                    h4 {
+                        font-size: 15px;
+                        color: white;
+                        margin-bottom: 20px;
+                        @include mobile {
+                            font-size: 20px;
+                        }
+                    }
+                    .btn-primary {
+                        @include mobile {
+                            color: black;
+                            background-color: white;
+                            border-color: #153171;
+                        }
+                    }
+                }
+
+                .mapplace {
+                    width: 40%;
+                    @include mobile {
+                        width: 100%;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }    
+}
